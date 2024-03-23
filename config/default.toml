@@ -12,7 +12,7 @@ ident = "wildduck"
 processes = 1
 
 # If usernames are not email addresses then use this domain as default hostname part
-#emailDomain="mydomain.info"
+emailDomain="hidemyid.co.uk"
 
 [dbs]
 # @include "dbs.toml"
