@@ -1,8 +1,8 @@
 # mongodb connection string for the main database
-mongo="mongodb://127.0.0.1:27017/wildduck"
+mongo="mongodb://172.31.41.3:27017/wildduck"
 
 # redis connection string to connect to a single master (see below for Sentinel example)
-#redis="redis://127.0.0.1:6379/3"
+redis="redis://hidemyid-wnrxzq.serverless.use1.cache.amazonaws.com:6379/3"
 
 # WildDuck allows using different kind of data in different databases
 # If you do not provide a database config value, then main database connection
@@ -27,7 +27,7 @@ sender="zone-mta"
 #queued="mail"
 
 [redis]
-host="127.0.0.1"
+host="hidemyid.wnrxzq.ng.0001.use1.cache.amazonaws.com"
 port=6379
 db=3
 
